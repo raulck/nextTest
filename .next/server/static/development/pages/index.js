@@ -119,7 +119,7 @@ const Home = () => __jsx(Container, {
   },
   __self: undefined
 }, __jsx("div", {
-  class: "container",
+  className: "container",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6
@@ -138,21 +138,21 @@ const Home = () => __jsx(Container, {
   },
   __self: undefined
 }, "Secondary Text")), __jsx("div", {
-  class: "row",
+  className: "row",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 12
   },
   __self: undefined
 }, __jsx("div", {
-  class: "col-md-8",
+  className: "col-md-8",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 13
   },
   __self: undefined
 }, __jsx("img", {
-  class: "img-fluid",
+  className: "img-fluid",
   src: "http://placehold.it/750x500",
   alt: "",
   __source: {
@@ -161,14 +161,14 @@ const Home = () => __jsx(Container, {
   },
   __self: undefined
 })), __jsx("div", {
-  class: "col-md-4",
+  className: "col-md-4",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 17
   },
   __self: undefined
 }, __jsx("h3", {
-  class: "my-3",
+  className: "my-3",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 18
@@ -181,7 +181,7 @@ const Home = () => __jsx(Container, {
   },
   __self: undefined
 }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim."), __jsx("h3", {
-  class: "my-3",
+  className: "my-3",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 25
@@ -218,21 +218,21 @@ const Home = () => __jsx(Container, {
   },
   __self: undefined
 }, "Adipiscing Elit")))), __jsx("h3", {
-  class: "my-4",
+  className: "my-4",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 35
   },
   __self: undefined
 }, "Related Projects"), __jsx("div", {
-  class: "row",
+  className: "row",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 37
   },
   __self: undefined
 }, __jsx("div", {
-  class: "col-md-3 col-sm-6 mb-4",
+  className: "col-md-3 col-sm-6 mb-4",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 38
@@ -246,7 +246,7 @@ const Home = () => __jsx(Container, {
   },
   __self: undefined
 }, __jsx("img", {
-  class: "img-fluid",
+  className: "img-fluid",
   src: "http://placehold.it/500x300",
   alt: "",
   __source: {
@@ -255,145 +255,126 @@ const Home = () => __jsx(Container, {
   },
   __self: undefined
 }))), __jsx("div", {
-  class: "col-md-3 col-sm-6 mb-4",
+  className: "col-md-3 col-sm-6 mb-4",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 44
+    lineNumber: 48
   },
   __self: undefined
 }, __jsx("a", {
   href: "#",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 45
+    lineNumber: 49
   },
   __self: undefined
 }, __jsx("img", {
-  class: "img-fluid",
+  className: "img-fluid",
   src: "http://placehold.it/500x300",
   alt: "",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 46
-  },
-  __self: undefined
-}))), __jsx("div", {
-  class: "col-md-3 col-sm-6 mb-4",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 50
   },
   __self: undefined
-}, __jsx("a", {
-  href: "#",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 51
-  },
-  __self: undefined
-}, __jsx("img", {
-  class: "img-fluid",
-  src: "http://placehold.it/500x300",
-  alt: "",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 52
-  },
-  __self: undefined
 }))), __jsx("div", {
-  class: "col-md-3 col-sm-6 mb-4",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 56
-  },
-  __self: undefined
-}, __jsx("a", {
-  href: "#",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 57
-  },
-  __self: undefined
-}, __jsx("img", {
-  class: "img-fluid",
-  src: "http://placehold.it/500x300",
-  alt: "",
+  className: "col-md-3 col-sm-6 mb-4",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 58
   },
   __self: undefined
-}))))), __jsx(Heading, {
-  className: "text-center",
+}, __jsx("a", {
+  href: "#",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 64
+    lineNumber: 59
   },
   __self: undefined
-}, "Hi there", __jsx("em", {
+}, __jsx("img", {
+  className: "img-fluid",
+  src: "http://placehold.it/500x300",
+  alt: "",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 66
+    lineNumber: 60
   },
   __self: undefined
-}, "tesing nesting component", __jsx("span", {
+}))), __jsx("div", {
+  className: "col-md-3 col-sm-6 mb-4",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 67
+    lineNumber: 68
   },
   __self: undefined
-}, "jfhhsjdgvjhds"))), __jsx("div", {
+}, __jsx("a", {
+  href: "#",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 69
+  },
+  __self: undefined
+}, __jsx("img", {
+  className: "img-fluid",
+  src: "http://placehold.it/500x300",
+  alt: "",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 70
+  },
+  __self: undefined
+}))))), __jsx("div", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 80
   },
   __self: undefined
 }, __jsx("h2", {
   className: "text-center",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 71
+    lineNumber: 81
   },
   __self: undefined
 }, "Lorem ipsum"), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 72
+    lineNumber: 82
   },
   __self: undefined
 }, "Lorem ipsum dolor sit amet")), __jsx("div", {
   className: "container",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 74
+    lineNumber: 84
   },
   __self: undefined
 }, __jsx("div", {
   className: "row",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 75
+    lineNumber: 85
   },
   __self: undefined
 }, __jsx("div", {
   className: "col-12 col-lg-4 text-center",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 76
+    lineNumber: 86
   },
   __self: undefined
 }, "One of three columns"), __jsx("div", {
   className: "col-12 col-lg-4 text-center",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 77
+    lineNumber: 87
   },
   __self: undefined
 }, "One of three columns"), __jsx("div", {
   className: "col-12 col-lg-4 text-center",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 78
+    lineNumber: 88
   },
   __self: undefined
 }, "One of three columns"))), __jsx("section", {
@@ -401,44 +382,44 @@ const Home = () => __jsx(Container, {
   "aria-label": "Current promos",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 82
+    lineNumber: 92
   },
   __self: undefined
 }, __jsx("div", {
   className: "row HomePage__main--marginTopHelper",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 83
+    lineNumber: 93
   },
   __self: undefined
 }, __jsx("div", {
   className: "col-md-3 col-sm-6",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 84
+    lineNumber: 94
   },
   __self: undefined
 }, __jsx("img", {
   className: " ",
-  src: "https://s3.amazonaws.com/orders-assets/public/images/thumbnail-1575490769877.jpg",
+  src: "http://placehold.it/500x300",
   alt: "",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 85
+    lineNumber: 95
   },
   __self: undefined
 }), __jsx("h3", {
   className: "HomePage__promoLink--title",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 90
+    lineNumber: 96
   },
   __self: undefined
 }, "Ribs & Wings"), __jsx("p", {
   className: "HomePage__promoLink--text",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 91
+    lineNumber: 97
   },
   __self: undefined
 }, "Our pit-smoked ribs and wings come in 8 delicious sauces, find your favorite today! Order now or use our app."), __jsx("a", {
@@ -446,37 +427,37 @@ const Home = () => __jsx(Container, {
   href: "https://orders.dickeys.com/quote/location",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 95
+    lineNumber: 101
   },
   __self: undefined
 }, "Order Now")), __jsx("div", {
   className: "col-md-3 col-sm-6",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 103
+    lineNumber: 109
   },
   __self: undefined
 }, __jsx("img", {
   className: " ",
-  src: "https://s3.amazonaws.com/orders-assets/public/images/thumbnail-1574693619516.jpg",
+  src: "http://placehold.it/500x300",
   alt: "",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 104
+    lineNumber: 110
   },
   __self: undefined
 }), __jsx("h3", {
   className: "HomePage__promoLink--title",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 109
+    lineNumber: 111
   },
   __self: undefined
 }, "We Cater"), __jsx("p", {
   className: "HomePage__promoLink--text",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 110
+    lineNumber: 112
   },
   __self: undefined
 }, "Order below or on our app \u2022 Call 866-Barbecue to speak to a catering expert"), __jsx("a", {
@@ -484,37 +465,37 @@ const Home = () => __jsx(Container, {
   href: "http://orders.dickeys.com",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 114
+    lineNumber: 116
   },
   __self: undefined
 }, "Order Now")), __jsx("div", {
   className: " col-md-3 col-sm-6",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 122
+    lineNumber: 124
   },
   __self: undefined
 }, __jsx("img", {
   className: " ",
-  src: "https://s3.amazonaws.com/orders-assets/public/images/thumbnail-1575490677895.jpg",
+  src: "http://placehold.it/500x300",
   alt: "",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 123
+    lineNumber: 125
   },
   __self: undefined
 }), __jsx("h3", {
   className: "HomePage__promoLink--title",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 128
+    lineNumber: 126
   },
   __self: undefined
 }, "Dickey's Delivers"), __jsx("p", {
   className: "HomePage__promoLink--text",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 129
+    lineNumber: 127
   },
   __self: undefined
 }, "We bring the 'cue to you! Order now or use our app."), __jsx("a", {
@@ -522,37 +503,37 @@ const Home = () => __jsx(Container, {
   href: "https://orders.dickeys.com/quote/location",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 133
+    lineNumber: 131
   },
   __self: undefined
 }, "Order Now")), __jsx("div", {
   className: "col-md-3 col-sm-6",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 141
+    lineNumber: 139
   },
   __self: undefined
 }, __jsx("img", {
   className: " ",
-  src: "https://s3.amazonaws.com/orders-assets/public/images/thumbnail-1577721935758.jpg",
+  src: "http://placehold.it/500x300",
   alt: "",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 142
+    lineNumber: 140
   },
   __self: undefined
 }), __jsx("h3", {
   className: "HomePage__promoLink--title",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 147
+    lineNumber: 141
   },
   __self: undefined
 }, "Deal of the Day"), __jsx("p", {
   className: "HomePage__promoLink--text",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 148
+    lineNumber: 142
   },
   __self: undefined
 }, "Stop in today for the in-store Deal of the Day\u2013Jalape\xF1o Cheddar Kielbasa and Pulled Pork 2 Meat Plate, with choice of two sides and a Big Yellow Cup"), __jsx("a", {
@@ -560,10 +541,29 @@ const Home = () => __jsx(Container, {
   href: "https://www.dickeys.com/location/search-by-state",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 153
+    lineNumber: 147
   },
   __self: undefined
-}, "Order Now")))));
+}, "Order Now")))), __jsx(Heading, {
+  className: "text-center",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 157
+  },
+  __self: undefined
+}, "Hi there", __jsx("em", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 159
+  },
+  __self: undefined
+}, "tesing nesting component", __jsx("span", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 160
+  },
+  __self: undefined
+}, "jfhhsjdgvjhds"))));
 
 const Container = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "pages__Container",

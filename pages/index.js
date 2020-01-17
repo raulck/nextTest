@@ -3,26 +3,26 @@ import styled from "styled-components";
 
 const Home = () => (
   <Container className="container-fluid">
-    <div class="container">
+    <div className="container">
       <h1>
         Page Heading
         <small>Secondary Text</small>
       </h1>
 
-      <div class="row">
-        <div class="col-md-8">
-          <img class="img-fluid" src="http://placehold.it/750x500" alt="" />
+      <div className="row">
+        <div className="col-md-8">
+          <img className="img-fluid" src="http://placehold.it/750x500" alt="" />
         </div>
 
-        <div class="col-md-4">
-          <h3 class="my-3">Project Description</h3>
+        <div className="col-md-4">
+          <h3 className="my-3">Project Description</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
             euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem,
             adipiscing in adipiscing et, interdum nec metus. Mauris ultricies,
             justo eu convallis placerat, felis enim.
           </p>
-          <h3 class="my-3">Project Details</h3>
+          <h3 className="my-3">Project Details</h3>
           <ul>
             <li>Lorem Ipsum</li>
             <li>Dolor Sit Amet</li>
@@ -32,41 +32,51 @@ const Home = () => (
         </div>
       </div>
 
-      <h3 class="my-4">Related Projects</h3>
+      <h3 className="my-4">Related Projects</h3>
 
-      <div class="row">
-        <div class="col-md-3 col-sm-6 mb-4">
+      <div className="row">
+        <div className="col-md-3 col-sm-6 mb-4">
           <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="" />
+            <img
+              className="img-fluid"
+              src="http://placehold.it/500x300"
+              alt=""
+            />
           </a>
         </div>
 
-        <div class="col-md-3 col-sm-6 mb-4">
+        <div className="col-md-3 col-sm-6 mb-4">
           <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="" />
+            <img
+              className="img-fluid"
+              src="http://placehold.it/500x300"
+              alt=""
+            />
           </a>
         </div>
 
-        <div class="col-md-3 col-sm-6 mb-4">
+        <div className="col-md-3 col-sm-6 mb-4">
           <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="" />
+            <img
+              className="img-fluid"
+              src="http://placehold.it/500x300"
+              alt=""
+            />
           </a>
         </div>
 
-        <div class="col-md-3 col-sm-6 mb-4">
+        <div className="col-md-3 col-sm-6 mb-4">
           <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="" />
+            <img
+              className="img-fluid"
+              src="http://placehold.it/500x300"
+              alt=""
+            />
           </a>
         </div>
       </div>
     </div>
 
-    <Heading className="text-center">
-      Hi there
-      <em>
-        tesing nesting component<span>jfhhsjdgvjhds</span>
-      </em>
-    </Heading>
     <div>
       <h2 className="text-center">Lorem ipsum</h2>
       <p>Lorem ipsum dolor sit amet</p>
@@ -82,11 +92,7 @@ const Home = () => (
     <section className="Container" aria-label="Current promos">
       <div className="row HomePage__main--marginTopHelper">
         <div className="col-md-3 col-sm-6">
-          <img
-            className=" "
-            src="https://s3.amazonaws.com/orders-assets/public/images/thumbnail-1575490769877.jpg"
-            alt=""
-          />
+          <img className=" " src="http://placehold.it/500x300" alt="" />
           <h3 className="HomePage__promoLink--title">Ribs &amp; Wings</h3>
           <p className="HomePage__promoLink--text">
             Our pit-smoked ribs and wings come in 8 delicious sauces, find your
@@ -101,11 +107,7 @@ const Home = () => (
         </div>
 
         <div className="col-md-3 col-sm-6">
-          <img
-            className=" "
-            src="https://s3.amazonaws.com/orders-assets/public/images/thumbnail-1574693619516.jpg"
-            alt=""
-          />
+          <img className=" " src="http://placehold.it/500x300" alt="" />
           <h3 className="HomePage__promoLink--title">We Cater</h3>
           <p className="HomePage__promoLink--text">
             Order below or on our app • Call 866-Barbecue to speak to a catering
@@ -120,11 +122,7 @@ const Home = () => (
         </div>
 
         <div className=" col-md-3 col-sm-6">
-          <img
-            className=" "
-            src="https://s3.amazonaws.com/orders-assets/public/images/thumbnail-1575490677895.jpg"
-            alt=""
-          />
+          <img className=" " src="http://placehold.it/500x300" alt="" />
           <h3 className="HomePage__promoLink--title">Dickey's Delivers</h3>
           <p className="HomePage__promoLink--text">
             We bring the 'cue to you! Order now or use our app.
@@ -139,11 +137,7 @@ const Home = () => (
         </div>
 
         <div className="col-md-3 col-sm-6">
-          <img
-            className=" "
-            src="https://s3.amazonaws.com/orders-assets/public/images/thumbnail-1577721935758.jpg"
-            alt=""
-          />
+          <img className=" " src="http://placehold.it/500x300" alt="" />
           <h3 className="HomePage__promoLink--title">Deal of the Day</h3>
           <p className="HomePage__promoLink--text">
             Stop in today for the in-store Deal of the Day–Jalapeño Cheddar
@@ -159,6 +153,13 @@ const Home = () => (
         </div>
       </div>
     </section>
+
+    <Heading className="text-center">
+      Hi there
+      <em>
+        tesing nesting component<span>jfhhsjdgvjhds</span>
+      </em>
+    </Heading>
   </Container>
 );
 
