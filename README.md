@@ -1,5 +1,5 @@
 # nextTest
-React next styled components test setup with SSR
+Project test setup with React, next, styled components, bootstrap basic reboot and grid styling included
 
 
 git clone project
