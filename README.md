@@ -1,5 +1,5 @@
 # nextTest
-React next styled components test setup
+React next styled components test setup with SSR
 
 
 git clone project
