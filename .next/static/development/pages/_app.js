@@ -10475,7 +10475,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/raulcikovic/Desktop/misc/next-with-styled-component/pages/_app.js";
+var _jsxFileName = "/Users/raulcikovic/Desktop/misc/test2/nextTest/pages/_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
 
 

@@ -6056,7 +6056,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _globalStyle__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../globalStyle */ "./globalStyle.js");
 
-var _jsxFileName = "/Users/raulcikovic/Desktop/misc/next-with-styled-component/pages/_app.js";
+var _jsxFileName = "/Users/raulcikovic/Desktop/misc/test2/nextTest/pages/_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
